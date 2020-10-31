@@ -1,0 +1,64 @@
+/* Fonts */
+@font-face {
+    font-family: 'lato';
+    src: url('fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/Roboto-Bold.ttf');
+}
+
+/* Remove anchor default style */
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* Styles */
+body {
+    background: #111;
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1 {
+    font-family: 'roboto', sans-serif;
+}
+
+.use-roboto {
+    font-family: 'roboto', sans-serif;
+}
+
+a, p {
+    font-family: 'lato', Fallback, sans-serif;
+}
+
+#page {
+    padding-top: 3%;
+}
+
+#card h1 {
+    padding-top: 5%;
+}
+
+#commands {
+    line-height: 0.6;
+    padding-top: 5%
+}
+
+#footer {
+    padding-top: 3%;
+    line-height: 0.5;
+    color: rgb(43, 42, 42);
+}

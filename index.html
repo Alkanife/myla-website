@@ -2,59 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap" rel="stylesheet"> 
+    <meta property="og:title" content="Myla Discord bot"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://myla.alkanife.fr"/>
+    <meta property="og:description" content="all the features you need." />
+    <meta property="og:image" content="https://myla.alkanife.fr/myla.png" />
+    <meta name="theme-color" content="#2b83a8">
+
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="myla.png"/>
+
     <title>Myla</title>
-
-    <style>
-        a:link {
-            text-decoration: inherit;
-            color: inherit;
-            cursor: pointer;
-        }
-
-        a:visited {
-            text-decoration: inherit;
-            color: inherit;
-            cursor: pointer;
-        }
-
-        .lato {
-            font-family: 'Lato', sans-serif;
-        }
-
-        .roboto {
-            font-family: 'Roboto', sans-serif;
-        }
-    </style>
 </head>
-<body style="background: #111;">
-    <div class="container" style="padding-top:3%;">
+<body>
+    <div class="container" id="page">
         <div class="row">
             <div class="col-6">
-                <img src="myla.png" class="float-right" style="border-radius: 50%">
+                <img src="myla.png" class="float-right">
             </div>
-            <div class="col" style="color:white;">
-                <h1 class="roboto" style="padding-top:5%;">MYLA</h1>
-                <p class="lato">all the features you need.</p>
-                <a class="lato" href="https://discordapp.com/oauth2/authorize?client_id=658109944859459604&scope=bot&permissions=41405504">+ Invite</a>
+            <div class="col" id="card">
+                <h1>MYLA</h1>
+                <p>all the features you need.</p>
+                <a href="https://discordapp.com/oauth2/authorize?client_id=658109944859459604&scope=bot&permissions=41405504">+ Invite</a>
                 <br>
-                <a class="lato" href="https://discord.com/invite/3dRJ2mK">+ join the support server</a>
+                <a href="https://discord.com/invite/3dRJ2mK">+ join the support server</a>
                 <br>
-                <a class="lato" href="demo.mp4">+ demo video</a>
+                <a href="demo.mp4">+ demo video</a>
             </div>
-        </div>
-        <div class="text-center" style="color:white;line-height: 0.6;padding-top:5%">
-            <p class="roboto">Commands (use the prefix m! or mention)</p>
-            <p class="lato"><i>default —</i> ping, help, invite, feedback, support</p>
-            <p class="lato"><i>utilities —</i> server, member, emote, roll, coin, anime, manga</p>
-            <p class="lato"><i>fun —</i> say, cookie, neko, why, itsnotlikeiloveyouoranything, hug, slap</p>
-            <p class="lato"><i>nsfw weeb stuff —</i> lewd, lewdgif, trap</p>
         </div>
 
-        <div class="text-center" style="padding-top:3%;line-height: 0.5;">
-            <p class="lato">by <a class="lato" href="https://github.com/alkanife">alkanife</a></p>
-            <a class="lato" href="https://github.com/alkanife/myla-website">source</a>
+        <div class="text-center" id="commands">
+            <p class="use-roboto">Commands (use the prefix m! or mention)</p>
+            <p><i>default —</i> ping, help, invite, feedback, support</p>
+            <p><i>utilities —</i> server, member, emote, roll, coin, anime, manga</p>
+            <p><i>fun —</i> say, cookie, neko, why, itsnotlikeiloveyouoranything, hug, slap</p>
+            <p><i>nsfw weeb stuff —</i> lewd, lewdgif, trap</p>
+        </div>
+
+        <div class="text-center" id="footer">
+            <p>by <a href="https://github.com/alkanife">alkanife</a></p>
+            <a href="https://github.com/alkanife/myla-website">source</a>
         </div>
     </div>
 </body>
