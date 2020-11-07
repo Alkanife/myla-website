@@ -1,13 +1,5 @@
 /* Fonts */
-@font-face {
-    font-family: 'lato';
-    src: url('fonts/Lato-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'roboto';
-    src: url('fonts/Roboto-Bold.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap');
 
 /* Remove anchor default style */
 a:link {
@@ -33,15 +25,15 @@ img {
 }
 
 h1 {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .use-roboto {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 a, p {
-    font-family: 'lato', Fallback, sans-serif;
+    font-family: 'Lato', Fallback, sans-serif;
 }
 
 #page {
